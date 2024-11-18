@@ -1,7 +1,25 @@
 # Requests, JSON, and basic NLP with spaCy
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+Completed Jupyter Notebook for Module 4 of Web Mining and Applied NLP (44-620). All cells and tasks edidted by Scott Williamson for this assignment. Assignment shows use of Natural Language Processing and one particular application: Sentiment Analysis.
+
+## Create virtual environment
+'''bash
+python3 -m venv .venv
+source .venv/bin/activate
+'''
+
+## Git add and commit 
+'''bash
+git add .
+git commit -m "comment"
+git push -u origin main
+'''
+
+## Install Dependencies
+'''bash
+python3 -m pip install requests spacy spacytextblob jupyterlab numpy pandas matplotlib seaborn scipy
+python3 -m pip freeze > requirements.txt
+'''
 
 ## Rubric
 
